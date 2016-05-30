@@ -1,0 +1,28 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "88E05BF446018B8E57C70FC39110AD0DD16255C9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "88E05BF446018B8E57C70FC39110AD0DD16255C9" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "61714C35-8655-4E36-9DB9-0530ECA0A52E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "88E05BF446018B8E57C70FC39110AD0DD16255C9" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "bonfire",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "bonfire.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ece158bspring2016\/WildFire2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "88E05BF446018B8E57C70FC39110AD0DD16255C9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ece158bspring2016\/Wildfire-BonFire.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "88E05BF446018B8E57C70FC39110AD0DD16255C9"
+    }
+  ]
+}
