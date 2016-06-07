@@ -32,8 +32,7 @@ class ChatViewController: UIViewController, UITextFieldDelegate, UITableViewDele
         
         let query = eventRef.queryOrderedByChild("host").queryEqualToValue(userInfo.host)
         
-        let currRef = query.ref
-        
+        let currRef = query.ref        
         
         let user = ["Name": userInfo.name, "email": userInfo.email]
         

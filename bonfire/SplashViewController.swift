@@ -15,6 +15,7 @@ class SplashViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = UIColor(red: 242/255, green: 58/255, blue: 7/255, alpha: 1)
         UIApplication.sharedApplication().networkActivityIndicatorVisible = true
         eventRef.observeEventType(.Value, withBlock: {snapshot in
             var tempItems = [NSDictionary]()
