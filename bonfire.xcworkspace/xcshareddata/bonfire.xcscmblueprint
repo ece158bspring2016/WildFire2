@@ -1,14 +1,18 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "88E05BF446018B8E57C70FC39110AD0DD16255C9",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CD6B6D4058B9B0613EF9AA635DD17D7DA5F12C77+++A2BBD72",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "88E05BF446018B8E57C70FC39110AD0DD16255C9" : 0
+    "88E05BF446018B8E57C70FC39110AD0DD16255C9+++F4DBDA2" : 0,
+    "88E05BF446018B8E57C70FC39110AD0DD16255C9+++2D441B6" : 0,
+    "CD6B6D4058B9B0613EF9AA635DD17D7DA5F12C77+++A2BBD72" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "61714C35-8655-4E36-9DB9-0530ECA0A52E",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "88E05BF446018B8E57C70FC39110AD0DD16255C9" : ""
+    "88E05BF446018B8E57C70FC39110AD0DD16255C9+++F4DBDA2" : "",
+    "88E05BF446018B8E57C70FC39110AD0DD16255C9+++2D441B6" : "",
+    "CD6B6D4058B9B0613EF9AA635DD17D7DA5F12C77+++A2BBD72" : "WildFire2-master\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "bonfire",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -17,12 +21,17 @@
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ece158bspring2016\/WildFire2.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "88E05BF446018B8E57C70FC39110AD0DD16255C9"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "88E05BF446018B8E57C70FC39110AD0DD16255C9+++2D441B6"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ece158bspring2016\/Wildfire-BonFire.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "88E05BF446018B8E57C70FC39110AD0DD16255C9"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "88E05BF446018B8E57C70FC39110AD0DD16255C9+++F4DBDA2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ece158bspring2016\/Wilfire3.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CD6B6D4058B9B0613EF9AA635DD17D7DA5F12C77+++A2BBD72"
     }
   ]
 }

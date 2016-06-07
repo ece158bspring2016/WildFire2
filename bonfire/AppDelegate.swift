@@ -21,14 +21,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // Initialize MPCManager object
         mpcManager = MPCManager()
+        
+        UIApplication.sharedApplication().setStatusBarStyle(UIStatusBarStyle.LightContent, animated: true)
+
+        
         let navbar = UINavigationBar.appearance()
         navbar.barTintColor = UIColor(red: 242/255, green: 58/255, blue: 7/255, alpha: 1)
+        navbar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
+        navbar.tintColor = UIColor.whiteColor()
+        
         
         let tabbar = UITabBar.appearance()
         tabbar.barTintColor = UIColor(red: 242/255, green: 58/255, blue: 7/255, alpha: 1)
         tabbar.tintColor = UIColor.whiteColor()
-        
-        
+        tabbar.translucent = false
+    
+        UITabBarItem.appearance().setTitleTextAttributes([NSForegroundColorAttributeName : UIColor.whiteColor()], forState: UIControlState.Normal)
+        UITabBarItem.appearance().setTitleTextAttributes([NSForegroundColorAttributeName : UIColor.yellowColor()], forState: UIControlState.Selected)
         return true
     }
 

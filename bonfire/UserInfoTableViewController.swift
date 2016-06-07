@@ -7,8 +7,11 @@
 //
 
 import UIKit
+import CoreLocation
 
 class UserInfoTableViewController: UITableViewController {
+    
+    let locationManager = CLLocationManager()
 
     @IBOutlet weak var emailField: UITextView!
     @IBOutlet weak var nameField: UITextView!
@@ -24,11 +27,21 @@ class UserInfoTableViewController: UITableViewController {
         userInfo.email = emailField.text
     }
     
+    
+    @IBOutlet weak var hostField: UITextView!
+    
+    @IBAction func getLocation(sender: AnyObject) {
+        userInfo.host = hostField.text
+    }
+    
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Load previous name/email
         nameField.text = userInfo.name
         emailField.text = userInfo.email
+        hostField.text = userInfo.host
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 

@@ -9,8 +9,13 @@
 import Foundation
 
 struct userInfo {
-    static var name = "Cuong"
-    static var email = "asdf@gmail.com"
+    static var name = ""
+    static var email = ""
+    static var host = ""
+}
+struct userLocation {
+    static var latitude = 0.0
+    static var longitude = 0.0
 }
 struct events {
     static var numEvents = 0

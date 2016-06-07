@@ -25,6 +25,19 @@
 		B86A67121CEC106300BBE099 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86A67111CEC106300BBE099 /* SplashViewController.swift */; };
 		B86A67161CEC1BCC00BBE099 /* myEventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86A67151CEC1BCC00BBE099 /* myEventsTableViewController.swift */; };
 		B86A67181CEC24CE00BBE099 /* myEventsInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86A67171CEC24CE00BBE099 /* myEventsInfoTableViewController.swift */; };
+		B8A29D711CFD147000C4648D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A29D701CFD147000C4648D /* MapKit.framework */; };
+		B8A29D731CFD147700C4648D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A29D721CFD147700C4648D /* CoreData.framework */; };
+		B8A29D751CFD148100C4648D /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A29D741CFD148100C4648D /* MultipeerConnectivity.framework */; };
+		B8A29D771CFE159F00C4648D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A29D761CFE159F00C4648D /* MapViewController.swift */; };
+		B8A29D7F1CFE5A9B00C4648D /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A29D7E1CFE5A9B00C4648D /* LocationViewController.swift */; };
+		B8A29D811D01487900C4648D /* BondFire.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A29D801D01487900C4648D /* BondFire.png */; };
+		B8F1A7681D068A9000840D34 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F1A7671D068A8F00840D34 /* ChatViewController.swift */; };
+		B8F1A76A1D068AC200840D34 /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F1A7691D068AC200840D34 /* ChatTableViewCell.swift */; };
+		B8F1A76C1D072B9B00840D34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8F1A76B1D072B9B00840D34 /* UIKit.framework */; };
+		B8F1A76E1D073D5F00840D34 /* profile_318-40185.png.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B8F1A76D1D073D5F00840D34 /* profile_318-40185.png.jpeg */; };
+		B8F1A7701D073D7100840D34 /* location_current-512.png in Resources */ = {isa = PBXBuildFile; fileRef = B8F1A76F1D073D7100840D34 /* location_current-512.png */; };
+		B8F1A7721D073D7800840D34 /* map-8.png in Resources */ = {isa = PBXBuildFile; fileRef = B8F1A7711D073D7800840D34 /* map-8.png */; };
+		B8F1A7741D073D7D00840D34 /* election-event-on-a-calendar-with-star-symbol_318-64485.png.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B8F1A7731D073D7D00840D34 /* election-event-on-a-calendar-with-star-symbol_318-64485.png.jpeg */; };
 		B8FC2D0C1CFCF72700278FDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8FC2D0A1CFCF72700278FDD /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +64,19 @@
 		B86A67111CEC106300BBE099 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		B86A67151CEC1BCC00BBE099 /* myEventsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myEventsTableViewController.swift; sourceTree = "<group>"; };
 		B86A67171CEC24CE00BBE099 /* myEventsInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myEventsInfoTableViewController.swift; sourceTree = "<group>"; };
+		B8A29D701CFD147000C4648D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B8A29D721CFD147700C4648D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B8A29D741CFD148100C4648D /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		B8A29D761CFE159F00C4648D /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		B8A29D7E1CFE5A9B00C4648D /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		B8A29D801D01487900C4648D /* BondFire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BondFire.png; sourceTree = "<group>"; };
+		B8F1A7671D068A8F00840D34 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		B8F1A7691D068AC200840D34 /* ChatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
+		B8F1A76B1D072B9B00840D34 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B8F1A76D1D073D5F00840D34 /* profile_318-40185.png.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "profile_318-40185.png.jpeg"; path = "../../profile_318-40185.png.jpeg"; sourceTree = "<group>"; };
+		B8F1A76F1D073D7100840D34 /* location_current-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "location_current-512.png"; path = "../../location_current-512.png"; sourceTree = "<group>"; };
+		B8F1A7711D073D7800840D34 /* map-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "map-8.png"; path = "../../map-8.png"; sourceTree = "<group>"; };
+		B8F1A7731D073D7D00840D34 /* election-event-on-a-calendar-with-star-symbol_318-64485.png.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "election-event-on-a-calendar-with-star-symbol_318-64485.png.jpeg"; path = "../../election-event-on-a-calendar-with-star-symbol_318-64485.png.jpeg"; sourceTree = "<group>"; };
 		B8FC2D0B1CFCF72700278FDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC91C0A74320133E63F7B16A /* Pods-bonfire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bonfire.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bonfire/Pods-bonfire.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,6 +86,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8F1A76C1D072B9B00840D34 /* UIKit.framework in Frameworks */,
+				B8A29D751CFD148100C4648D /* MultipeerConnectivity.framework in Frameworks */,
+				B8A29D731CFD147700C4648D /* CoreData.framework in Frameworks */,
+				B8A29D711CFD147000C4648D /* MapKit.framework in Frameworks */,
 				06C8AC097EB5072CAA6AD814 /* Pods_bonfire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -70,6 +100,10 @@
 		587B6A0D4EBBB4D29903C3E5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B8F1A76B1D072B9B00840D34 /* UIKit.framework */,
+				B8A29D741CFD148100C4648D /* MultipeerConnectivity.framework */,
+				B8A29D721CFD147700C4648D /* CoreData.framework */,
+				B8A29D701CFD147000C4648D /* MapKit.framework */,
 				B2E0A2586FFB02ED199262FC /* Pods_bonfire.framework */,
 			);
 			name = Frameworks;
@@ -96,18 +130,27 @@
 		B860FCA51CE94D140031F79A /* bonfire */ = {
 			isa = PBXGroup;
 			children = (
+				B8A29D7E1CFE5A9B00C4648D /* LocationViewController.swift */,
 				B860FCA61CE94D140031F79A /* AppDelegate.swift */,
+				B8F1A7671D068A8F00840D34 /* ChatViewController.swift */,
+				B8F1A7691D068AC200840D34 /* ChatTableViewCell.swift */,
 				B868E1AF1CF7BB1200D96E87 /* MPCManager.swift */,
 				B868E1B11CF7BB5A00D96E87 /* MPCChatConstants.swift */,
 				B868E1AD1CF7B7B900D96E87 /* ViewControllerMPC.swift */,
 				B86A67171CEC24CE00BBE099 /* myEventsInfoTableViewController.swift */,
 				B8FC2D0A1CFCF72700278FDD /* Main.storyboard */,
+				B8A29D761CFE159F00C4648D /* MapViewController.swift */,
 				B86A67151CEC1BCC00BBE099 /* myEventsTableViewController.swift */,
+				B8A29D801D01487900C4648D /* BondFire.png */,
 				B86A67111CEC106300BBE099 /* SplashViewController.swift */,
 				B86A670F1CEAAF6E00BBE099 /* LocationSearchTable.swift */,
 				B86A670B1CEA9D5400BBE099 /* Location.swift */,
 				B86A67051CEA794700BBE099 /* EventInfoTableViewController.swift */,
 				B86A67031CEA69CA00BBE099 /* EventDetailsTableViewController.swift */,
+				B8F1A7731D073D7D00840D34 /* election-event-on-a-calendar-with-star-symbol_318-64485.png.jpeg */,
+				B8F1A7711D073D7800840D34 /* map-8.png */,
+				B8F1A76F1D073D7100840D34 /* location_current-512.png */,
+				B8F1A76D1D073D5F00840D34 /* profile_318-40185.png.jpeg */,
 				B86A67011CEA5B1500BBE099 /* UserInfoTableViewController.swift */,
 				B86A67091CEA9A9500BBE099 /* globalVars.swift */,
 				B86A66FF1CEA592F00BBE099 /* EventsTableViewController.swift */,
@@ -191,8 +234,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8F1A76E1D073D5F00840D34 /* profile_318-40185.png.jpeg in Resources */,
 				B8FC2D0C1CFCF72700278FDD /* Main.storyboard in Resources */,
 				B860FCB11CE94D140031F79A /* LaunchScreen.storyboard in Resources */,
+				B8F1A7701D073D7100840D34 /* location_current-512.png in Resources */,
+				B8F1A7741D073D7D00840D34 /* election-event-on-a-calendar-with-star-symbol_318-64485.png.jpeg in Resources */,
+				B8A29D811D01487900C4648D /* BondFire.png in Resources */,
+				B8F1A7721D073D7800840D34 /* map-8.png in Resources */,
 				B860FCAE1CE94D140031F79A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +305,7 @@
 				B86A67181CEC24CE00BBE099 /* myEventsInfoTableViewController.swift in Sources */,
 				B86A67101CEAAF6E00BBE099 /* LocationSearchTable.swift in Sources */,
 				B868E1B01CF7BB1200D96E87 /* MPCManager.swift in Sources */,
+				B8F1A76A1D068AC200840D34 /* ChatTableViewCell.swift in Sources */,
 				B868E1B21CF7BB5A00D96E87 /* MPCChatConstants.swift in Sources */,
 				B86A67001CEA592F00BBE099 /* EventsTableViewController.swift in Sources */,
 				B86A670E1CEAABB600BBE099 /* ViewControllerMap.swift in Sources */,
@@ -266,7 +315,10 @@
 				B860FCA71CE94D140031F79A /* AppDelegate.swift in Sources */,
 				B86A67041CEA69CA00BBE099 /* EventDetailsTableViewController.swift in Sources */,
 				B86A67121CEC106300BBE099 /* SplashViewController.swift in Sources */,
+				B8A29D7F1CFE5A9B00C4648D /* LocationViewController.swift in Sources */,
 				B868E1AE1CF7B7B900D96E87 /* ViewControllerMPC.swift in Sources */,
+				B8F1A7681D068A9000840D34 /* ChatViewController.swift in Sources */,
+				B8A29D771CFE159F00C4648D /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

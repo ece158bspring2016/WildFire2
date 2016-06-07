@@ -46,6 +46,10 @@ class ViewControllerMPC: UIViewController, UITableViewDelegate, UITableViewDataS
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func canceltoCIInfo(segue:UIStoryboardSegue) {
+        if segue.identifier == "back" {
+        }
+    }
     
     // MARK: IBAction method implementation
     

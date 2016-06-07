@@ -9,7 +9,9 @@
 import UIKit
 
 class myEventsTableViewController: UITableViewController {
-
+    override func viewDidAppear(animated: Bool) {
+        tableView.reloadData()
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         //UINavigationBar.appearance().backgroundColor = UIColor.greenColor()

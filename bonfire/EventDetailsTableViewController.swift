@@ -21,6 +21,9 @@ class EventDetailsTableViewController: UITableViewController, CLLocationManagerD
     var latitude: Double = 0.0
     var longitude: Double = 0.0
     
+    
+
+    @IBOutlet weak var hostField: UITextField!
     @IBOutlet weak var nameField: UITextField!
     @IBOutlet weak var descriptionField: UITextField!
     @IBOutlet weak var timeField: UIDatePicker!
@@ -28,8 +31,14 @@ class EventDetailsTableViewController: UITableViewController, CLLocationManagerD
     @IBAction func getLocation(sender: AnyObject) {
         let location = self.locationManager.location
         
-        latitude = location!.coordinate.latitude
-        longitude = location!.coordinate.longitude
+        if location == nil {
+            self.latitude = 0.0
+            self.longitude = 0.0
+        }
+        else {
+            latitude = location!.coordinate.latitude
+            longitude = location!.coordinate.longitude
+        }
     }
     
     override func viewDidLoad() {
@@ -72,7 +81,7 @@ class EventDetailsTableViewController: UITableViewController, CLLocationManagerD
             dateFormatter.timeStyle = NSDateFormatterStyle.ShortStyle
             
             
-            let newEvent: NSDictionary = ["name": (self.nameField.text)!, "description": (self.descriptionField.text)!,
+            let newEvent: NSDictionary = ["host": (self.hostField.text)!,"name": (self.nameField.text)!, "description": (self.descriptionField.text)!,
                 "time": dateFormatter.stringFromDate(timeField.date), "location": [longitude, latitude]]
             
             if name == "" {
